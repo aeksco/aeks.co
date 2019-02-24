@@ -11,11 +11,11 @@ googleAnalytics = "UA-XXXXXXXX-Y"
     favicon = "favicon.png"
     logo = "logo.png"
     email = "aeksco@gmail.com"
-    facebook = "aeksco"
+    # facebook = "aeksco"
     twitter = "aeksco"
-    dribbble = ""
+    # dribbble = ""
     linkedin = "https://www.linkedin.com/in/aeksco"
-    medium = "aeksco"
+    # medium = "aeksco"
 
 [params.nav]
     enable = true
@@ -23,10 +23,16 @@ googleAnalytics = "UA-XXXXXXXX-Y"
 [params.hero]
     enable = true
     avatar = "avatar.jpg"
-    subtitle = "Hi! I'm Alex, a Software Engineer and Designer from Troy, NY"
+    subtitle = "Hi! I'm Alex, a software engineer from Troy, NY"
     # hero_right = ["**Currently doing consultancy work at UX Society. Previously doing UX and product at Agoda in Bangkok, Thailand as an international intern.**", "I founded [User Experience Society](https://www.facebook.com/UXSoc/), the first student UX organization in the Philippines. For two years, we've had 20+ events with 30+ speakers for over 300 members and 500+ attendees. We've expanded to [California](https://www.facebook.com/profile.php?id=245708449193012) this year.", "I do a bit of writing as well. [Here's an article with a total of 21,000+ views to InVision & Medium](http://blog.invisionapp.com/ux-internship-wisdom/) talking about 50 things I learned spending 3 years as a UX intern.", "I help cultivate the design community in Manila too. I'm the youngest core member of [UX Philippines](https://www.facebook.com/groups/uxphilippines/) and I moderated a panel with some cool people for the [UXPH 2017 Conference](https://www.uxphilippines.com).", "I'm finishing my Bachelor's degree in Management Information Systems at the Ateneo de Manila University, expecting to graduate in 2018."]
-    hero_right = ["Alexander Schwartzberg is a software engineer based out of Troy, NY.", "He worked at Cisco Systems for two years developing leading-edge virtualization and automation tools for technicians in Cisco's enterprise customer service labs. He subsequently accepted an engineering position at Cortical Metrics, a startup that develops unique cognitive assessment tools that use touch-based sensory testing to quantitatively measure human brain health. Alexander has since contributed to research initiatives funded by both DARPA and the Bill and Melinda Gates Foundation.", "He is a coordinator and mentor at the Rensselaer Center for Open Source (RCOS) where he helps empower students to develop open-source solutions to real-world problems.", "When he's not developing software or perfecting his recipe for marinara sauce, Alexander pursues product development, 3d printing, gardening, and jazz guitar."]
-    resume = "ResumeCollado.pdf"
+    # hero_right = ["Alexander Schwartzberg is a software engineer based out of Troy, NY.", "He has worked at Cisco Systems developing leading-edge virtualization and automation tools for technicians in Cisco's enterprise customer service labs.", "He subsequently accepted an engineering position at Cortical Metrics, a startup that develops unique cognitive assessment tools that use touch-based sensory testing to quantitatively measure human brain health. Alexander has since contributed to research initiatives funded by both DARPA and the Bill and Melinda Gates Foundation.", "He is a coordinator and mentor at the Rensselaer Center for Open Source (RCOS) where he helps empower students to develop open-source solutions to real-world problems.", "When he's not developing software or perfecting his recipe for marinara sauce, Alexander pursues product development, 3d printing, gardening, and jazz guitar."]
+    hero_right = [
+        "Alexander Schwartzberg is a software engineer based out of Troy, NY.",
+        "He has worked at Cisco Systems developing leading-edge virtualization and automation tools for technicians in Cisco's enterprise customer service labs. He later worked at Cortical Metrics, a startup that develops unique cognitive assessment tools that use touch-based sensory testing to quantitatively measure human brain health. Alexander has since contributed to research initiatives funded by both DARPA and the Bill and Melinda Gates Foundation.",
+        "Alexander holds a B.S. of Computer Science from Rensselaer Polytechnic Institute in Troy, NY.",
+        "When he's not developing software or perfecting his recipe for marinara sauce, Alexander pursues product development, 3d printing, gardening, and jazz guitar."
+    ]
+    # resume = "ResumeCollado.pdf"
 
 [params.process]
     enable = false
@@ -39,4 +45,4 @@ googleAnalytics = "UA-XXXXXXXX-Y"
     subtitle = "Selected Works"
 
 [params.footer]
-    enable = true
+    # enable = true
